@@ -5,7 +5,7 @@ node_modules/
 **/*.map
 
 **/*.min.js
-**/*.min.css
+# **/*.min.css
 images/
 fonts/
 
