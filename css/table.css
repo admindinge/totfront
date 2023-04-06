@@ -2,8 +2,8 @@ table {
     display: flex; /* ვარბილებთ ცხრილს */
     flex-direction: column; /* ელემენტების განაწილების მიმართულება */
     justify-content: space-between;
-    width: 750px; /* сумма ширин всех колонок и отступов */
-    margin: 0 auto; /* центрирование таблицы */
+    width: 750px; 
+    margin: 0 auto; 
     background-color: var(--info-color); /* цвет фона таблицы */
   }
   

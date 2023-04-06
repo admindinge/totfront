@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 5px auto; 
+    padding: 5px;
+    font-family: 'BPG LE Studio 02 Caps', sans-serif;
+    font-weight: bold;
+    border: .5px solid var(--info-color);
+
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+  
+  label,
+  input {
+    flex: 1;
+    margin: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+    input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
