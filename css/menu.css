@@ -1,0 +1,38 @@
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+nav {
+    display: flex;
+    justify-content: center; /* ელემენტების თანაბარი განაწილება */
+    align-items: center; /* ელემენტების ცენტრისება */
+    font-family: 'BPG LE Studio 02 Caps', sans-serif;
+    margin-top: 20px; /* Отступ сверху */
+  margin-bottom: 20px; /* Отступ снизу */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none; /* ვაქრობთ ბულეტებს */
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px; /* ელემენტებს შორის დაშორება */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    transition: all 0.3s ease; /* ფერის ცვლილება მდორედ */
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }

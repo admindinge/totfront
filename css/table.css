@@ -1,0 +1,40 @@
+table {
+    display: flex; /* ვარბილებთ ცხრილს */
+    flex-direction: column; /* ელემენტების განაწილების მიმართულება */
+    justify-content: space-between;
+    width: 750px; /* сумма ширин всех колонок и отступов */
+    margin: 0 auto; /* центрирование таблицы */
+    background-color: var(--info-color); /* цвет фона таблицы */
+  }
+  
+  thead {
+    /* display: flex;
+    flex-direction: row; ელემენტები განაწილდება სტრიქონში */
+    font-family: 'BPG LE Studio 02 Caps', sans-serif;
+    font-weight: bold;
+  }
+  
+  tbody {
+    display: flex;
+    flex-direction: column; /* ელემენტები განაწილდება სვეტში */
+    font-family: "BPG LE Studio 02", sans-serif;
+  }
+  
+  tr {
+    display: flex;
+    flex-direction: row; /* ელემენები სტრიქონში */
+  }
+  
+th:first-child,
+td:first-child {
+  width: 20%;
+}
+
+  th,
+  td {
+    flex: 1; /* ცხრილის ყველა ელემენტი დაიკავებს შესაძლებელი სივრცის თანაბარ ნაწილს */
+    text-align: left; /* ტექსტი ცრილის უჯრებში */
+    color: var(--danger-color); /* ტექსტის ფერი */
+  }
+  
+
